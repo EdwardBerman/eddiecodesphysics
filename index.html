@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/png" href="Scanning....png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="The official website of Eddie Berman"/> 
+    <title>Eddie Berman Website</title>
+  </head>
+  <body>
+  
+  <canvas id="bg"></canvas>
+    <main>
+
+      <nav>
+        <ul>
+          <p>   <a> berman.ed [at] northeastern.edu</a>   &#9813; <a href="https://linktr.ee/bermanEdward" target = "_blank"> https://linktr.ee/bermanEdward</a> </p> <br>
+          <a onclick = 'changeTextAbout()' href="#top"> About</a> &#9817;
+	  <script>
+		function changeTextAbout(){
+document.getElementById('MainText').innerHTML = "This website acts as an academic portfolio for my research and teaching. The format of this website was inspired by <a target='_blank' href='https://federico.codes/'>Federico Cassano</a> and was made using threeJS. </p>"
+
+			  document.getElementById("MainTextTwo").innerHTML =" 🚀<br> Welcome to my website!"
+			  document.getElementById('MainImg').innerHTML = " <br><img class='imAttribute2' src='Media/Berman_Basecamp.png' alt = ''/><img>"
+document.getElementById('News').innerHTML = "News"
+			   document.getElementById('NewsText').innerHTML = "<ul><li> 12/15/2022: Check out my educational <a target='_blank' href='https://www.youtube.com/channel/UCdPpCLqo7Qov7-25QSWtElg'> videos</a> on various topics in Probability and Statistics</li> </ul>"
+
+				  }
+
+	  </script>
+          <a onclick='changeTextEducation()' href='#top' > Education</a> &#9817;
+	  <script>
+		  function changeTextEducation(){
+					    document.getElementById('MainText').innerHTML = "I am currently pursuing my Bachelors of Science in Mathematics and a minor in Physics at Northeastern University. I plan on enrolling in the plusOne program to graduate with a Master of Science in Applied Mathematics as well. Upon graduation I will look for PhD programs in Astrophysics. <h2>Involvement</h2> <p> <a target='_blank' href='https://neu.campuslabs.com/engage/organization/math-club'>Math Club </a> &#9816;  </p> <a target='_blank' href='https://web.northeastern.edu/sps/'>Society of Physics Students</a> &#9816; <a target='_blank' href='https://www.northeasternmathema.org/'>MathEMA</a> </p><h2>Coursework</h2>	<p>	Math 4571 Advanced Linear Algebra, Math 4545 Fourier Series and PDEs, Math 3181 Advanced Probability and Statistics, Phys 3602 Electricity and Magnetism 1, Phys 2303 Modern Physics  </p> <h2>Wisdom</h2>	<p>'It is my experience that proofs involving matrices can be shortened by 50% if one throws the matrices out.'</p> <p>'Truth can only be found in one place: The code.'    </p> "
+					    
+					    document.getElementById('MainTextTwo').innerHTML = '<u>Education</u>'
+					    document.getElementById('MainImg').innerHTML = " <br> <img  src ='Media/NULOGO.png' /><img>"
+					    document.getElementById('News').innerHTML = ""
+					    document.getElementById('NewsText').innerHTML = ""
+				    
+				    }
+	  </script>
+          <a onclick='changeTextResearch()' href="#top"> Research</a>&#9817;
+		  <script>
+			  function changeTextResearch(){
+
+		  document.getElementById('News').innerHTML = ""
+		  document.getElementById('NewsText').innerHTML = ""
+		  document.getElementById('MainTextTwo').innerHTML = "<u>Research</u>"
+							    document.getElementById('MainText').innerHTML = "<h2>Experiences</h2><ul><li>McCleary's Group</li> <li><a href = 'https://calinacopos.github.io' target='_blank'>Copos Lab</a></li> <li>Air Force Research Laboratory</li></ul>"
+							    document.getElementById('MainImg').innerHTML = "<br> <img src='Media/PSF.jpg' /><img>"
+						    }
+		  </script>
+
+	  <a onclick='changeTextTeachingAndService()' href='#top'>Teaching and Service</a>&#9817;
+		  <script>
+			  function changeTextTeachingAndService(){
+							    document.getElementById('MainImg').innerHTML = "<br><img src='Media/Cos.jpg' /><img>"
+							    document.getElementById('News').innerHTML = ""
+							    document.getElementById('NewsText').innerHTML = ""
+							    document.getElementById('MainTextTwo').innerHTML = "<u>Teaching and Service</u>"
+							    document.getElementById('MainText').innerHTML = "<ul><li>Executive Board Member and Student Mentor <br> -- Mathematics Engagement and Mentorship Association</li><li>Fall 2022: Course Assistant Math 2331, Linear Algebra</li><li> Educational Youtube Channel,<a target='_blank' href='https://www.youtube.com/channel/UCdPpCLqo7Qov7-25QSWtElg'> Eddie Explains</a></li> <li>Expository Paper, <a target='_blank' href='https://github.com/EdwardBerman/DataDrivenModelDiscovery'>Machine Learning Model Discovery</a></li></ul>"
+
+
+
+						    }
+
+		  </script>
+          <a onclick='changeTextCV()' href="#top">Resume/CV</a>
+	  <script>
+		  function changeTextCV(){
+		  document.getElementById("MainTextTwo").innerHTML = "<u>CV</u>" 
+       document.getElementById("MainText").innerHTML = " <a href='Media/Resume_CV-12.pdf' download> Resume Download</a> &#9814; &#9815;"
+					    document.getElementById('News').innerHTML = ""
+					    document.getElementById('NewsText').innerHTML = ""
+					    document.getElementById('MainImg').innerHTML = "<br><img src='Media/Photo.jpg' /><img>"
+				    }
+	  </script>
+         
+
+        </ul>
+      </nav >
+      <section>
+        <h1>Edward Berman</h1>
+	<h2 id='MainTextTwo'> 🚀<br> Welcome to my website!</h2>
+        <p id='MainText'>This website acts as an academic portfolio for my research and teaching. The format of this website was inspired by <a target="_blank" href="https://federico.codes/">Federico Cassano</a> and was made using threeJS. </p>
+	<h2 id="News">News</h2>
+	<ul id="NewsText" >
+		<li> 12/15/2022: Check out my educational <a target='_blank' href='https://www.youtube.com/channel/UCdPpCLqo7Qov7-25QSWtElg'> videos</a> on various topics in Probability and Statistics</li>
+	</ul>
+      </section>
+
+ <section class='sectionRight' id='MainImg'> <br><img class="imAttribute2" src="Media/Berman_Basecamp.png" alt = ""/><img>
+ </section>
+
+
+      
+      
+
+
+
+
+
+
+      <nav> <p><a href ='#'>Jump to Top</a> <br>   <a> berman.ed [at] northeastern.edu</a> &#9813;  <a href="https://linktr.ee/bermanEdward" target = "_blank"> https://linktr.ee/bermanEdward</a> </p></nav>
+
+
+
+    </main>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
