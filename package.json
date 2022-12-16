@@ -6,6 +6,7 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"
+    "deploy" : "gh-pages -d dist"
   },
   "devDependencies": {
     "vite": "^2.9.15"
